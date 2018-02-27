@@ -10,7 +10,7 @@ import (
 )
 
 func loadOBJModel(filename string, loader Loader) RawModel {
-	f, err := os.Open(filename + ".obj")
+	f, err := os.Open("res/" + filename + ".obj")
 	check(err)
 	defer f.Close()
 
