@@ -4,21 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/OBJFileLoader.go" line="106" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac98477f-fd72-4860-9d55-fc4a138f3fa8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/OBJLoader.go" afterPath="$PROJECT_DIR$/OBJLoader.go" />
-      <change beforePath="$PROJECT_DIR$/blue_color.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/box.obj" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/crate_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dragon.obj" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fern.obj" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fern.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/grass.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/grassModel.obj" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/grassy2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/stall.obj" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/stallTexture.png" afterPath="" />
-    </list>
+    <list default="true" id="ac98477f-fd72-4860-9d55-fc4a138f3fa8" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -206,7 +192,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -219,6 +204,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -266,6 +252,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12291667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -570,7 +557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
