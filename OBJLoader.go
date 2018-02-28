@@ -3,18 +3,20 @@ package main
 import (
 	"github.com/go-gl/mathgl/mgl32"
 	"strconv"
-	"os"
 	"bufio"
 	"strings"
 	"io"
+	"github.com/gobuffalo/packr"
 )
 
 func loadOBJModel(filename string, loader Loader) RawModel {
-	f, err := os.Open("res/" + filename + ".obj")
+	//f, err := os.Open("res/" + filename + ".obj")
+	box := packr.NewBox("./res")
+	f, err := box.MustString(filename+".obj")
 	check(err)
-	defer f.Close()
-
-	r := bufio.NewReader(f)
+	//defer f.Close()
+	st := strings.NewReader(f)
+	r := bufio.NewReader(st)
 
 	var line string
 	var currentLine []string
