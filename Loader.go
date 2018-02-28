@@ -4,10 +4,11 @@ import (
 	"github.com/go-gl/gl/v4.5-core/gl"
 	"image"
 	"fmt"
-	"os"
 
 	"image/draw"
 	_ "image/png"
+	"github.com/gobuffalo/packr"
+	"strings"
 )
 
 type Loader struct {
@@ -33,11 +34,14 @@ func (l *Loader) loadToVAO(positions, textureCoords, normals []float32, indices 
 }
 
 func (l *Loader) loadTexture(file string) uint32 {
-	imgFile, err := os.Open("res/" + file + ".png")
+	//imgFile, err := os.Open("res/" + file + ".png")
+	box := packr.NewBox("./res")
+	s, err := box.MustString(file + ".png")
 	if err != nil {
 		fmt.Errorf("texture %q not found on disk: %v", file, err)
 		return 0
 	}
+	imgFile := strings.NewReader(s)
 	img, _, err := image.Decode(imgFile)
 	if err != nil {
 		fmt.Print(err)
